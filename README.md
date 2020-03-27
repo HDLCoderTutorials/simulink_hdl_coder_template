@@ -2,16 +2,25 @@
 
 <Project Info Goes Here>
 
-_Initial Files_
-* .gitattributes
-* .gitignore
-* README.md
+#### Initial Files
+* __.gitignore__
+  *  ignore most build files
+  *  exception for system_wrapper.bit (takes 20 min to build)
+* __.gitattributes__
+  *  treat simulink files as binary to prevent merge corruption
+  *  setup Git LFS to track system_wrapper.bit (keep 30 MB binary files out of repo)
+* __README.md__
+  *  To Read
+  *  Self-referential
+
 
 
 #### To Do
 - [x] Initialize repository
 - [ ] Add project files
 - [ ] Customize Readme
+
+
 
 
 
